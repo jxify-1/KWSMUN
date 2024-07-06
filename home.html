@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Rubik:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/html/KWSMUN/hello.css" />
+    <link rel="stylesheet" href="/html/KWSMUN/navbar.css" />
+    <link rel="stylesheet" href="images/2021-08-22.jpg" />
+    <title>MUN project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bg-image"></div>
+    <section class="header">
+      <nav>
+        <a href="home.html"><img src="images/kws.png" alt="noimage" /></a>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:kwsmun@kws.edu.np">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="text-box">
+        <h1><b>WELCOME TO </b>KWS MUN</h1>
+        <p>
+          Dedicated to enhancing comprehension of the United Nations,<br />
+          educating participants about global concerns, and advancing peace and
+          <br />
+          UN's efforts through cooperative diplomacy. <br />
+          It involves a range of programs conducted worldwide to simulate UN
+          proceedings, <br />
+          fostering international cooperation and understanding. <br />
+        </p>
+        <a href="https://linktr.ee/kwsmun" class="join">Join us Now</a>
+      </div>
+    </section>
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        color: #fff;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+      }
+    </style>
+
+    <!---footer-->
+    <div class="footer">
+      <h1>About us</h1>
+      <p>
+        MUN is an integral part of the KWS experience. KWS has been adopting it
+        since 2021. <br />It aims to develop the students' critical thinking and
+        speaking skills.
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/kwsmodelun" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/kwsmun/" target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="https://www.tiktok.com/@kwsmun" target="_blank"
+          ><i class="bi bi-tiktok"></i
+        ></a>
+      </div>
+    </div>
+
+    <!------Javascript for Toggling Menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function ShowMenu() {
+        navLinks.style.right = "0";
+      }
+      function HideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
